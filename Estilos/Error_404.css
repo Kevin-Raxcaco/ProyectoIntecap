@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error-container {
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    color: #d9534f;
+}
+
+a {
+    text-decoration: none;
+    color: #31708f;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; color:#d9534f;
+}
+
+/* Estilo para la imagen */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15%;
+}
